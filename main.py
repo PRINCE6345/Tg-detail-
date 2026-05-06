@@ -9,7 +9,7 @@ from flask import Flask, request
 # ║       Made by PRINCE | @Ownerofworld45          ║
 # ╚═════════════════════════════════════════════════╝
 
-BOT_TOKEN   = '8622715627:AAEOQnOF07_c7T3oW5ZOvbDs4CVUu_UbIrE'
+BOT_TOKEN   = '8550444265:AAGo_g1hoBEsCYZhKsjy8uhc0UmtSwb8agE'
 CHANNEL     = '@princexhitmanmods'
 CHANNEL_URL = 'https://t.me/princexhitmanmods'
 SMS_API      = 'https://ayaanmods.site/sms.php'
