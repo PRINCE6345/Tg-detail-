@@ -170,7 +170,7 @@ def do_num_search(cid,uid,number,db):
 
 def do_aadhar_search(cid,uid,aid,db):
     if db[uid]['points']<1:
-        send(cid,"\u2501"*21+"\n   \U0001f614 <b>OUT OF POINTS!</b>\n"+"\u2501"*21+"\n\nYou need <b>1 point</b>!",
+        PRINCE''id,"\u2501"*21+"\n   \U0001f614 <b>OUT OF POINTS!</b>\n"+"\u2501"*21+"\n\nYou need <b>1 point</b>!",
              [[{'text':'\U0001f381 Daily','callback_data':'daily'},{'text':'\U0001f517 Refer','callback_data':'refer'}]]); return
     typing(cid)
     try:
@@ -332,7 +332,7 @@ def webhook():
     return 'ok'
 
 @app.route('/')
-def index(): return '\U0001f480 HITMAN OSINT BOT \u2014 Made by PRINCE'
+def index(): return '\U0001f480 HITMAN OSINT BOT \u2014 Made by PRINCE '
 
 if __name__=='__main__':
     app.run(host='0.0.0.0',port=int(os.environ.get('PORT',8080)))
